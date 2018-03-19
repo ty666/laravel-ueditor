@@ -35,7 +35,7 @@ class UEditorServiceProvider extends ServiceProvider
         ], 'config');
 
         $this->publishes([
-            __DIR__.'/assets/ueditor' => public_path('vendor/ueditor'),
+            __DIR__.'/assets/neditor' => public_path('vendor/neditor'),
         ], 'assets');
 
         $this->publishes([
